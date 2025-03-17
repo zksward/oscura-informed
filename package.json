@@ -1,0 +1,23 @@
+{
+  "name": "fey-oscura",
+  "displayName": "Oscura",
+  "description": "An unapologetic dark theme that embraces shadows.",
+  "version": "0.0.1",
+  "publisher": "Fey.com",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oscura",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oscura-theme.json"
+      }
+    ]
+  }
+}
