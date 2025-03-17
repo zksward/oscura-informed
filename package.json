@@ -3,7 +3,7 @@
   "displayName": "Oscura",
   "description": "An unapologetic dark theme that embraces shadows.",
   "version": "0.0.1",
-  "publisher": "Fey.com",
+  "publisher": "Fey",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.75.0"
