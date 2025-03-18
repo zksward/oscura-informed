@@ -83,7 +83,7 @@
     "list.highlightForeground": "#FFF",              // Search match highlight
 
     // Input controls
-    "input.background": "#27282A",                    // Input box background
+    "input.background": "#2C2C31",                    // Input box background
     "input.foreground": "#E6E6E6",                    // Input text color
     "inputOption.activeForeground": "#FFF",           // Active input text
 
@@ -113,7 +113,7 @@
     "gitDecoration.untrackedResourceForeground": "#FFF", // Untracked file color
 
     // Quick input/Command palette
-    "quickInput.background": "#27282A",               // Quick input background
+    "quickInput.background": "#2C2C31",               // Quick input background
     "quickInput.foreground": "#C1C1C1",               // Quick input text
     "quickInputList.focusBackground": "#FFFFFF16",    // Selected item background
     "quickInputList.focusForeground": "#FFF",         // Selected item text
