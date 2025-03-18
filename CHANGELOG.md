@@ -2,6 +2,11 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.0.5] - 2024-03-17
+
+### Changed
+- Updated theme description
+
 ## [0.0.4] - 2024-03-17
 
 ### Changed
