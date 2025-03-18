@@ -2,6 +2,15 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
+## [0.0.7] - 2025-03-18
+
+### Changed
+- Updated status bar color for no folder to match theme slate background
+- Enhanced activity bar with deeper slate background for better contrast
+- Added more detailed comments for color sources
+- Updated theme description to highlight purple, slate, and green accents
+- Improved alignment with company brand colors
+
 ## [0.0.6] - 2024-03-21
 
 ### Changed

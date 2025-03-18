@@ -1,14 +1,13 @@
 {
-  "name": "oscura",
-  "displayName": "Oscura Theme",
-  "description": "An unapologetically dark and minimal theme.",
-  "version": "0.0.6",
-  "publisher": "Fey",
+  "name": "oscura-informed",
+  "displayName": "Oscura Informed Theme",
+  "description": "An unapologetically dark and minimal theme with purple, slate, and green accents.",
+  "version": "0.0.7",
+  "publisher": "zksward",
   "repository": {
     "type": "git",
-    "url": "https://github.com/narative/oscura"
+    "url": "https://github.com/zksward/oscura-informed"
   },
-  "icon": "icon.png",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -18,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Oscura",
+        "label": "Oscura Informed",
         "uiTheme": "vs-dark",
         "path": "./themes/oscura-theme.json"
       }
