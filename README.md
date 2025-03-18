@@ -24,4 +24,4 @@ For proper syntax highlighting of styled-components, we recommend installing the
 This theme is crafted by the Fey team, following our design's color palette and principles. It's part of our commitment to creating beautiful tools. [Fey.com](https://fey.com)
 
 
-<a href="https://marketplace.visualstudio.com/items?itemName=Fey.oscura"><strong>Install now</strong></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=Fey.fey-oscura"><strong>Install now</strong></a>
