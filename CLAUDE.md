@@ -32,3 +32,7 @@
 - Use semantic naming for colors when possible
 - Iterative development tracked in .claudecode/log.md
 - Development TODOs in .claudecode/todos.md
+
+## Important things to remember
+- always start by looking over the claudecode/ directory to fetch context
+- when using the /compact command you will write the analysis and summary components into the claudecode/compaction-log.md for reference

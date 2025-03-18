@@ -1,7 +1,7 @@
 ![Preview](https://res.cloudinary.com/narative/image/upload/oscura-preview.jpg)
 
 
-# Oscura by Fey
+# Oscura Informed
 
 Fey's theme features meticulously curated accent colors and precisely balanced contrast, crafting a sophisticated coding environment that's both elegant and easy on the eyes.
 
