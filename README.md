@@ -3,7 +3,7 @@
 
 # Oscura by Fey
 
-Fey’s theme features meticulously curated accent colors and precisely balanced contrast, crafting a sophisticated coding environment that’s both elegant and easy on the eyes.
+Fey's theme features meticulously curated accent colors and precisely balanced contrast, crafting a sophisticated coding environment that's both elegant and easy on the eyes.
 
 ## Recommended Settings and extension
 
@@ -24,4 +24,4 @@ For proper syntax highlighting of styled-components, we recommend installing the
 This theme is crafted by the Fey team, following our design's color palette and principles. It's part of our commitment to creating beautiful tools. [Fey.com](https://fey.com)
 
 
-<a href="linkhere"><strong>Install now</strong></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=Fey.oscura"><strong>Install now</strong></a>

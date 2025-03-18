@@ -1,8 +1,8 @@
 {
-  "name": "fey-oscura",
+  "name": "oscura",
   "displayName": "Oscura",
   "description": "An unapologetic dark theme that embraces shadows.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Fey",
   "repository": {
     "type": "git",
