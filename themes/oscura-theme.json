@@ -2,11 +2,11 @@
   "name": "Oscura Informed",
   "colors": {
     // Workbench: Basic editor colors
-    "editor.background": "#26283E", // Main editor background (slate.120)
+    "editor.background": "#1E293B", // Main editor background (slate.800 - more slate, less purple)
     "editor.foreground": "#F5F5F6", // Default text color (slate.5)
     "editorLineNumber.foreground": "#515362", // Line number color (slate.90)
     "editorLineNumber.activeForeground": "#F5F5F6", // Active line number color (slate.5)
-    "editorGroupHeader.tabsBackground": "#26283E", // Editor group header background (slate.120)
+    "editorGroupHeader.tabsBackground": "#1E293B", // Editor group header background (slate.800 - consistent with editor)
     "editorWarning.foreground": "#F1B045", // Warning squiggles color (orange.100)
     "editorError.foreground": "#F05555", // Error squiggles color (red.100)
 
@@ -29,11 +29,11 @@
     "editorGutter.modifiedBackground": "#8158C9", // Modified line gutter indicator (purple.100)
 
     // Sidebar and activity bar
-    "sideBar.background": "#1E293B", // Sidebar background (slate.800)
+    "sideBar.background": "#1E293B", // Sidebar background (slate.800 - matches editor for consistency)
     "sideBar.foreground": "#C5C5CA", // Sidebar text color (slate.30)
     "sideBarTitle.foreground": "#8B8C97", // Sidebar title color (slate.60)
-    "sideBarSectionHeader.foreground": "#8B8C97", // Section header text (slate.60)
-    "sideBarSectionHeader.background": "#1E293B", // Section header background (slate.800)
+    "sideBarSectionHeader.foreground": "#9A79D4", // Section header text (purple.80 - better hierarchy and brand alignment)
+    "sideBarSectionHeader.background": "#343647", // Section header background (slate.darkSlate - creates visual separation)
 
     // Activity bar
     "activityBar.background": "#343647", // Activity bar background (slate.darkSlate - deeper than original)
@@ -42,22 +42,22 @@
     "activityBarBadge.foreground": "#F5F5F6", // Badge text (slate.5)
 
     // Title bar
-    "titleBar.activeBackground": "#1E293B", // Active window title background (slate.800)
+    "titleBar.activeBackground": "#343647", // Active window title background (slate.darkSlate - consistent with other header elements)
     "titleBar.inactiveBackground": "#1E293B", // Inactive window title background (slate.800)
-    "titleBar.activeForeground": "#8B8C97", // Active window title text (slate.60)
+    "titleBar.activeForeground": "#9A79D4", // Active window title text (purple.80 - brand alignment)
     "titleBar.inactiveForeground": "#656674", // Inactive window title text (slate.80)
 
     // Tabs
     "tab.border": "#1E293B", // Tab border (slate.800)
-    "tab.activeBackground": "#26283E", // Active tab background (slate.120)
+    "tab.activeBackground": "#1E293B", // Active tab background (slate.800 - consistent with editor)
     "tab.activeBorder": "#8158C9", // Active tab border (purple.100)
     "tab.activeForeground": "#F5F5F6", // Active tab text (slate.5)
-    "tab.inactiveBackground": "#1E293B", // Inactive tab background (slate.800)
+    "tab.inactiveBackground": "#343647", // Inactive tab background (slate.darkSlate - creates contrast with active tabs)
 
     // Status bar
     "statusBar.background": "#1E293B", // Status bar background (slate.800)
     "statusBar.foreground": "#9A79D4", // Status bar text (purple.80)
-    "statusBar.noFolderBackground": "#26283E", // Status bar background when no folder is open (slate.120) - updated to match theme
+    "statusBar.noFolderBackground": "#343647", // Status bar background when no folder is open (slate.darkSlate - consistent with inactive elements)
     "statusBar.debuggingBackground": "#35CE99", // Debug mode background (green.100)
     "statusBar.debuggingForeground": "#F5F5F6", // Debug mode text (slate.5)
     "statusBarItem.remoteBackground": "#8158C9", // Remote indicator background (purple.100)

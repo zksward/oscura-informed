@@ -1,6 +1,17 @@
 # Change Log
 
-All notable changes to the "Oscura" theme extension will be documented in this file.
+All notable changes to the "Oscura Informed" theme extension will be documented in this file.
+
+## [0.0.8] - 2025-03-18
+
+### Changed
+- Made backgrounds more slate and less purple for improved cohesion
+- Standardized editor and sidebar backgrounds to slate.800 (#1E293B)
+- Updated header elements (title bar, tabs) for better visual hierarchy
+- Improved consistency across UI elements with slate color palette
+- Enhanced section headers with company purple accents
+- Fixed mismatched UI elements (tabs, sidebar, title bar)
+- Updated color theme comments for better documentation
 
 ## [0.0.7] - 2025-03-18
 

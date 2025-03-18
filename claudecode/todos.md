@@ -13,6 +13,10 @@
 - [x] Adjust colors to better match company palette
     - Updated status bar and activity bar colors
     - Enhanced color comments to reference company palette
+- [x] Improve consistency across UI elements
+    - Standardized main background to slate.800 
+    - Fixed mismatched UI elements
+    - Created better visual hierarchy with active/inactive states
 - [ ] Test theme in different language contexts
 - [ ] Create side-by-side screenshots for comparison
 - [ ] Improve contrast ratios if needed for accessibility
