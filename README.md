@@ -19,7 +19,7 @@ For the best experience, we recommend using these settings in the cursor's setti
 
 For proper syntax highlighting of styled-components, we recommend installing the [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components) extension.
 
-## Get in Touch
+## About
 
 This theme is crafted by the Fey team, following our design's color palette and principles. It's part of our commitment to creating beautiful tools. [Fey.com](https://fey.com)
 

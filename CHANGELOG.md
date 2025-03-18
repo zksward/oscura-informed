@@ -2,7 +2,12 @@
 
 All notable changes to the "Oscura" theme extension will be documented in this file.
 
-## [0.0.5] - 2024-03-17
+## [0.0.6] - 2024-03-21
+
+### Changed
+- Updated status bar color when no folder is open from default VS Code purple (#68217A) to theme background (#0B0B0F)
+
+## [0.0.5] - 2024-03-18
 
 ### Changed
 - Updated theme description

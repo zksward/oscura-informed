@@ -60,6 +60,7 @@
     // Status bar
     "statusBar.background": "#0B0B0F",                // Status bar background
     "statusBar.foreground": "#9592A4",                // Status bar text
+    "statusBar.noFolderBackground": "#0B0B0F",        // Status bar background when no folder is open
     "statusBar.debuggingBackground": "#4EBE96",       // Debug mode background
     "statusBar.debuggingForeground": "#E6E6E6",       // Debug mode text
     "statusBarItem.remoteBackground": "#E6E7A3",      // Remote indicator background
