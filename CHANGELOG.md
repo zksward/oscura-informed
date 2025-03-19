@@ -2,6 +2,14 @@
 
 All notable changes to the "Oscura Informed" theme extension will be documented in this file.
 
+## [0.0.11] - 2025-03-18
+
+### Changed
+- Improved Informed Gruvbox Purple theme with a more gray-focused palette
+- Enhanced text contrast for better readability
+- Reduced color saturation for a more balanced visual experience
+- Updated tokens and syntax highlighting for improved coding experience
+
 ## [0.0.10] - 2025-03-18
 
 ### Added

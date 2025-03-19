@@ -36,3 +36,4 @@
 ## Important things to remember
 - always start by looking over the claudecode/ directory to fetch context
 - when using the /compact command you will write the analysis and summary components into the claudecode/compaction-log.md for reference
+- make sure to check context in claudecode/ and keep that all up to date

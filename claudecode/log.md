@@ -1,5 +1,13 @@
 # Development Log
 
+## 2025-03-18 (v0.0.11)
+- Improved Informed Gruvbox Purple theme with a more gray-focused palette
+- Enhanced text contrast for better readability
+- Reduced color saturation for a more balanced visual experience
+- Updated token colors for improved syntax highlighting
+- Modified color-generator.js to support desaturated palette generation
+- Bumped version to 0.0.11 in package.json
+
 ## 2025-03-18 (v0.0.10)
 - Created multiple variants of Informed Gruvbox theme
 - Added enhanced color generation tool supporting different theme variants

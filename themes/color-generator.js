@@ -121,23 +121,23 @@ function generateInformedGruvboxPalette(variant = 'default') {
     
     // Create base hybrid colors based on variant
     if (variant === 'purple') {
-        // Use the purple-tinted slate background
-        palette.bg = mixColors(InformedColors.purpleSlate, InformedColors.gruvboxBg, 0.85);
+        // Use a more gray-tinted slate background (less saturated)
+        palette.bg = mixColors(mixColors(InformedColors.purpleSlate, "#404040", 0.6), InformedColors.gruvboxBg, 0.7);
     } else {
         // Use the default slate background
         palette.bg = InformedColors.menuSlate;
     }
     
-    palette.fg = mixColors(InformedColors.gruvboxFg, "#FFFFFF", 0.9); // Slightly whiter gruvbox foreground
+    palette.fg = mixColors(InformedColors.gruvboxFg, "#FFFFFF", 0.95); // Higher contrast foreground
     
     // Create syntax token colors that blend Informed with Gruvbox
-    // Use more brand green (less gruvbox influence)
-    palette.string = mixColors(InformedColors.green, InformedColors.gruvboxGreen, 0.85);
-    palette.keyword = mixColors(InformedColors.purple, InformedColors.gruvboxPurple, 0.6);
-    palette.function = mixColors(InformedColors.blue, InformedColors.gruvboxBlue, 0.6);
+    // Use more brand green (less gruvbox influence) but slightly desaturated
+    palette.string = mixColors(mixColors(InformedColors.green, "#D0D0D0", 0.15), InformedColors.gruvboxGreen, 0.85);
+    palette.keyword = mixColors(mixColors(InformedColors.purple, "#D0D0D0", 0.2), InformedColors.gruvboxPurple, 0.6);
+    palette.function = mixColors(mixColors(InformedColors.blue, "#FFFFFF", 0.15), InformedColors.gruvboxBlue, 0.6);
     palette.variable = palette.fg;
-    palette.number = mixColors(InformedColors.orange, InformedColors.gruvboxOrange, 0.6);
-    palette.comment = mixColors(InformedColors.gruvboxGray || "#928374", "#A0A0A0", 0.8);
+    palette.number = mixColors(mixColors(InformedColors.orange, "#FFFFFF", 0.1), InformedColors.gruvboxOrange, 0.6);
+    palette.comment = mixColors(InformedColors.gruvboxGray || "#928374", "#B0B0B0", 0.8);
     palette.operator = mixColors(InformedColors.yellow, InformedColors.gruvboxYellow, 0.7);
     
     // Fix the purple80 reference
