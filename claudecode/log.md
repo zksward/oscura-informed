@@ -1,9 +1,17 @@
 # Development Log
 
+## 2025-03-18 (v0.0.10)
+- Created multiple variants of Informed Gruvbox theme
+- Added enhanced color generation tool supporting different theme variants
+- Improved brand alignment with more accurate green color representation
+- Bumped version to 0.0.10 in package.json
+
 ## 2025-03-18 (v0.0.9)
 - Added Gruvbox Dark Medium theme as reference inspiration
 - Added original theme for comparison
 - Created Informed Gruvbox theme blending company colors with Gruvbox aesthetics
+- Created Informed Gruvbox Purple variant with more company-branded background
+- Enhanced string/green highlights to match company green more closely
 - Developed color-generator.js tool for generating hybrid color palettes
 - Made all themes available in package.json
 - Updated context.md with reference to Gruvbox inspiration

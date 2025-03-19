@@ -2,12 +2,21 @@
 
 All notable changes to the "Oscura Informed" theme extension will be documented in this file.
 
+## [0.0.10] - 2025-03-18
+
+### Added
+- Created multiple variants of Informed Gruvbox theme
+- Added enhanced color generation tool supporting different theme variants
+- Improved brand alignment with more accurate green color representation
+
 ## [0.0.9] - 2025-03-18
 
 ### Added
 - Added Gruvbox Dark Medium theme as reference inspiration
 - Added original Oscura theme for comparison
 - Created new Informed Gruvbox theme blending company colors with Gruvbox aesthetics
+- Created Informed Gruvbox Purple variant with more purple-tinted background
+- Enhanced string/green highlights to match company brand green more closely
 - Developed color-generator.js tool for generating hybrid color palettes
 - Made all themes available in package.json
 

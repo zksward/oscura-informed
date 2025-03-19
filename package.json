@@ -2,7 +2,7 @@
   "name": "oscura-informed",
   "displayName": "Oscura Informed Theme",
   "description": "An unapologetically dark and minimal theme with purple, slate, and green brand accents.",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "publisher": "zksward",
   "repository": {
     "type": "git",
@@ -25,6 +25,11 @@
         "label": "Informed Gruvbox",
         "uiTheme": "vs-dark",
         "path": "./themes/informed-gruvbox.json"
+      },
+      {
+        "label": "Informed Gruvbox Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/informed-gruvbox-purple.json"
       },
       {
         "label": "Oscura",

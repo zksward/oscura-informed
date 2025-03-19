@@ -13,6 +13,8 @@ const InformedColors = {
     darkSlate: "#343647",
     extraSlate: "#26283E",
     menuSlate: "#1E293B",
+    // For v2 - a more purple-tinted slate background
+    purpleSlate: "#2F2A3F",
     // Gruvbox inspired colors
     gruvboxFg: "#ebdbb2",
     gruvboxBg: "#282828",
@@ -114,15 +116,23 @@ function rgbToHex(r, g, b) {
  * 
  * @returns {object} - The generated palette
  */
-function generateInformedGruvboxPalette() {
+function generateInformedGruvboxPalette(variant = 'default') {
     const palette = {};
     
-    // Create base hybrid colors
-    palette.bg = InformedColors.menuSlate; // Use the slate background from Informed
+    // Create base hybrid colors based on variant
+    if (variant === 'purple') {
+        // Use the purple-tinted slate background
+        palette.bg = mixColors(InformedColors.purpleSlate, InformedColors.gruvboxBg, 0.85);
+    } else {
+        // Use the default slate background
+        palette.bg = InformedColors.menuSlate;
+    }
+    
     palette.fg = mixColors(InformedColors.gruvboxFg, "#FFFFFF", 0.9); // Slightly whiter gruvbox foreground
     
     // Create syntax token colors that blend Informed with Gruvbox
-    palette.string = mixColors(InformedColors.green, InformedColors.gruvboxGreen, 0.7);
+    // Use more brand green (less gruvbox influence)
+    palette.string = mixColors(InformedColors.green, InformedColors.gruvboxGreen, 0.85);
     palette.keyword = mixColors(InformedColors.purple, InformedColors.gruvboxPurple, 0.6);
     palette.function = mixColors(InformedColors.blue, InformedColors.gruvboxBlue, 0.6);
     palette.variable = palette.fg;
@@ -191,15 +201,28 @@ function generateVariations(basePalette) {
     return complete;
 }
 
-// Generate the palette
+// Generate the default palette
 const basePalette = generateInformedGruvboxPalette();
 const fullPalette = generateVariations(basePalette);
 
-// Output the palette in a nice format
-console.log('\nGenerated Informed Gruvbox Palette:');
+// Generate the purple variant
+const purplePalette = generateInformedGruvboxPalette('purple');
+const fullPurplePalette = generateVariations(purplePalette);
+
+// Output the default palette in a nice format
+console.log('\nGenerated Informed Gruvbox Palette (Default):');
 for (const [key, value] of Object.entries(fullPalette)) {
     console.log(`${key}: ${value}`);
 }
 
-// Export the palette for use in the theme
-module.exports = fullPalette;
+// Output the purple variant palette
+console.log('\nGenerated Informed Gruvbox Palette (Purple Variant):');
+for (const [key, value] of Object.entries(fullPurplePalette)) {
+    console.log(`${key}: ${value}`);
+}
+
+// Export the palettes for use in themes
+module.exports = {
+    default: fullPalette,
+    purple: fullPurplePalette
+};
