@@ -7,6 +7,8 @@
     - themes/informed-colors.js
 - [x] Extract context from Twitter thread about developer themes as marketing
     - claudecode/context.md
+- [x] Add Gruvbox theme as design inspiration
+    - themes/gruvbox-dark-medium.json
 
 ## Theme Development
 - [x] Compare current theme with original
@@ -20,9 +22,11 @@
 - [ ] Test theme in different language contexts
 - [ ] Create side-by-side screenshots for comparison
 - [ ] Improve contrast ratios if needed for accessibility
+- [ ] Consider applying Gruvbox-inspired token coloring to syntax highlighting
 
 ## Documentation
 - [x] Update theme description with color palette reference
 - [x] Document color mapping decisions in comments
+- [x] Add references to inspiration themes in package.json
 - [ ] Update README with development context
 - [ ] Create before/after comparisons

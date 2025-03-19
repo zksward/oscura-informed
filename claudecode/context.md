@@ -47,3 +47,7 @@ The tweet thread above seems to focus on simplicity and taste applied to the fun
     Purple: #8158c9 - Used for the "Repricer" part of the logo and some decorative elements
     Dark Gray/Slate: #3e4051 - Used for the "Informed" text elements
     Green/Teal: #35ce99 - Used for a rectangular element in the design
+
+====== Additional Inspiration ========
+
+I also really enjoy gruvbox as a theme. Check out themes/gruvbox-dark-medium.json for more inspiration

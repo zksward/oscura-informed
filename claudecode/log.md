@@ -1,5 +1,12 @@
 # Development Log
 
+## 2025-03-18 (v0.0.9)
+- Added Gruvbox Dark Medium theme as reference inspiration
+- Added original theme for comparison
+- Made both themes available in package.json
+- Updated context.md with reference to Gruvbox inspiration
+- Bumped version to 0.0.9 in package.json
+
 ## 2025-03-18 (v0.0.8)
 - Made backgrounds more slate and less purple to match brand colors
 - Standardized editor and sidebar backgrounds to slate.800 (#1E293B)
