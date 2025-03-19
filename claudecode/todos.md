@@ -19,14 +19,20 @@
     - Standardized main background to slate.800 
     - Fixed mismatched UI elements
     - Created better visual hierarchy with active/inactive states
-- [ ] Test theme in different language contexts
+- [x] Create Gruvbox-inspired theme with company colors
+    - Created informed-gruvbox.json theme
+    - Developed color-generator.js tool for blending palettes
+    - Added to package.json as available theme
+- [ ] Test themes in different language contexts
 - [ ] Create side-by-side screenshots for comparison
 - [ ] Improve contrast ratios if needed for accessibility
-- [ ] Consider applying Gruvbox-inspired token coloring to syntax highlighting
+- [ ] Refine Informed Gruvbox theme based on usage feedback
 
 ## Documentation
 - [x] Update theme description with color palette reference
 - [x] Document color mapping decisions in comments
 - [x] Add references to inspiration themes in package.json
+- [x] Update CHANGELOG.md with new theme additions
 - [ ] Update README with development context
 - [ ] Create before/after comparisons
+- [ ] Add instructions for using the color generator tool

@@ -22,6 +22,11 @@
         "path": "./themes/oscura-theme.json"
       },
       {
+        "label": "Informed Gruvbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/informed-gruvbox.json"
+      },
+      {
         "label": "Oscura",
         "uiTheme": "vs-dark",
         "path": "./themes/original.json"
